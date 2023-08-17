@@ -1,6 +1,28 @@
 # @dev_jatin/tiny
 
-[![npm (scoped)](https://img.shields.io/npm/v/@bamblehorse/tiny.svg)](https://github.com/jatinnegi/tiny)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@bamblehorse/tiny.svg)](https://github.com/jatinnegi/tiny)
+<p style="text-align:center;">
+  <img src="https://img.shields.io/npm/v/@bamblehorse/tiny.svg" alt="npm version"/>
+</p>
+<p style="text-align:center;">
+  <img src="https://img.shields.io/bundlephobia/min/@bamblehorse/tiny.svg" alt="minified"/>
+</p>
 
-It's the tiniest
+Removes all spaces from the string
+
+```
+$ npm install @dev_jatin/tiny
+```
+
+## Usage
+
+```js
+const tiny = require("@dev_jatin/tiny");
+
+tiny("So much space!");
+//=> "Somuchspace!"
+
+tiny(1337);
+//=> Uncaught TypeError: Tiny wants a string!
+//   at tiny (<anonymous>:2:41)
+//   at <anonymous>:1:1
+```
