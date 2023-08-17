@@ -1,9 +1,9 @@
 # @dev_jatin/tiny
 
-<p style="text-align:center;">
+<p align="center">
   <img src="https://img.shields.io/npm/v/@bamblehorse/tiny.svg" alt="npm version"/>
 </p>
-<p style="text-align:center;">
+<p align="center">
   <img src="https://img.shields.io/bundlephobia/min/@bamblehorse/tiny.svg" alt="minified"/>
 </p>
 
